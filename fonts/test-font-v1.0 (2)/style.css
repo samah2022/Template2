@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'test-font';
+  src:  url('fonts/test-font.eot?6qczon');
+  src:  url('fonts/test-font.eot?6qczon#iefix') format('embedded-opentype'),
+    url('fonts/test-font.ttf?6qczon') format('truetype'),
+    url('fonts/test-font.woff?6qczon') format('woff'),
+    url('fonts/test-font.svg?6qczon#test-font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'test-font' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-skillshare:before {
+  content: "\e902";
+  color: #17c5cb;
+}
+.icon-users:before {
+  content: "\e901";
+}
+.icon-group:before {
+  content: "\e901";
+}
+.icon-team:before {
+  content: "\e901";
+}
+.icon-members:before {
+  content: "\e901";
+}
+.icon-community:before {
+  content: "\e901";
+}
+.icon-collaborate:before {
+  content: "\e901";
+}
+.icon-home:before {
+  content: "\e900";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-ctrl:before {
+  content: "\ea50";
+}
+.icon-star-empty:before {
+  content: "\e9d7";
+}
+.icon-star-half:before {
+  content: "\e9d8";
+}
+.icon-star-full:before {
+  content: "\e9d9";
+}
